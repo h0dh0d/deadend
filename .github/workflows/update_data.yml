@@ -13,9 +13,7 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false  # Disable automatic token authentication
+        uses: actions/checkout@v3
 
       - name: Set Up Python
         uses: actions/setup-python@v4
